@@ -1,0 +1,13 @@
+const notificationSvg = 'assets/images/Group 3996.svg';
+const shareSvg = 'assets/images/Icon feather-share-2.svg';
+const greenLeafSvg = 'assets/images/Group 6.svg';
+const pinkLeafSvg = 'assets/images/Group 7.svg';
+const emojy = 'assets/images/😍.svg';
+const coinSvg = 'assets/images/Group 21.svg';
+const dollarSvg = 'assets/images/dollar.svg';
+const qr = 'assets/images/qr.svg';
+const pinkFlag = 'assets/images/flag-1.svg';
+const orangeFlag = 'assets/images/flag.svg';
+const blueFlag = 'assets/images/flag-2.svg';
+const purpleFlag = 'assets/images/flag-3.svg';
+const rokectSvg = 'assets/images/Group 4091.svg';
