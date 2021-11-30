@@ -24,6 +24,13 @@ linter:
   rules:
     # avoid_print: false  # Uncomment to disable the `avoid_print` rule
     # prefer_single_quotes: true  # Uncomment to enable the `prefer_single_quotes` rule
-
+    - avoid_redundant_argument_values
+    - curly_braces_in_flow_control_structures
+    - always_put_control_body_on_new_line
+    - provide_deprecation_message
+    - avoid_setters_without_getters
+    - join_return_with_assignment
+    - avoid_void_async
+    - prefer_const_constructors
 # Additional information about this file can be found at
 # https://dart.dev/guides/language/analysis-options

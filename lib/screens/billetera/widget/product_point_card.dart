@@ -18,14 +18,14 @@ class ProductPointCard extends StatelessWidget {
                 top: 50.0, left: 25, right: 25, bottom: 16),
             child: Column(
               children: [
-                SizedBox(height: 8),
+                const SizedBox(height: 8),
                 const Text(
                   'Lomo en piña',
                   style: whiteTextStyle,
                 ),
-                SizedBox(height: 16),
+                const SizedBox(height: 16),
                 Container(
-                  padding: EdgeInsets.all(8),
+                  padding: const EdgeInsets.all(8),
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       gradient: const LinearGradient(
@@ -35,7 +35,7 @@ class ProductPointCard extends StatelessWidget {
                         // stops: const [0.0, 0.1],
                         // tileMode: TileMode.mirror,);
                       )),
-                  child: Text(
+                  child: const Text(
                     '1300 points',
                     style: whiteTextStyle,
                   ),

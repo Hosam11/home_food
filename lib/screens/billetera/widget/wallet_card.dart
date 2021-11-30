@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:home_food/constants/styles.dart';
 import 'package:home_food/constants/svgs.dart';
-import 'package:home_food/shared_widgets/custom_button.dart';
 
 class WalletCard extends StatelessWidget {
   const WalletCard({Key? key}) : super(key: key);
@@ -15,10 +14,10 @@ class WalletCard extends StatelessWidget {
         child: Row(
           children: [
             SvgPicture.asset(dollarSvg),
-            SizedBox(width: 16),
+            const SizedBox(width: 16),
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
+              children: const [
                 Text('Your current wallet'),
                 Text(
                   '12300 points',
@@ -26,7 +25,7 @@ class WalletCard extends StatelessWidget {
                 )
               ],
             ),
-            Spacer(),
+            const Spacer(),
             Container(
               padding: const EdgeInsets.all(8.0),
               decoration: BoxDecoration(

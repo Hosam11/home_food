@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:home_food/screens/billetera/widget/wallet_card.dart';
 import 'package:home_food/screens/billetera/widget/win_dialog.dart';
 import 'package:home_food/screens/billetera/widget/win_header.dart';
 

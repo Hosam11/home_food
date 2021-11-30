@@ -36,7 +36,7 @@ class ProfileCard extends StatelessWidget {
                     Text('diana.pino@gmail.com'),
                   ],
                 ),
-                Spacer(),
+                const Spacer(),
                 SvgPicture.asset(
                   qr,
                   width: 50,
@@ -44,15 +44,15 @@ class ProfileCard extends StatelessWidget {
                 )
               ],
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             Row(
               children: [
-                Text('Your profile: 40% complete'),
-                Spacer(),
+                const Text('Your profile: 40% complete'),
+                const Spacer(),
                 SvgPicture.asset(pinkFlag),
               ],
             ),
-            SizedBox(height: 8),
+            const SizedBox(height: 8),
             // LinearPercentIndicato
             LinearPercentIndicator(
               // width: 100.0,
@@ -74,7 +74,7 @@ class ProfileCard extends StatelessWidget {
                       SvgPicture.asset(orangeFlag),
                       Text(
                         flagValues[0],
-                        style: TextStyle(color: Color(0xff022136)),
+                        style: const TextStyle(color: Color(0xff022136)),
                       ),
                     ],
                   ),
@@ -83,7 +83,7 @@ class ProfileCard extends StatelessWidget {
                       SvgPicture.asset(pinkFlag),
                       Text(
                         flagValues[1],
-                        style: TextStyle(color: Color(0xff022136)),
+                        style: const TextStyle(color: Color(0xff022136)),
                       ),
                     ],
                   ),
@@ -92,7 +92,7 @@ class ProfileCard extends StatelessWidget {
                       SvgPicture.asset(blueFlag),
                       Text(
                         flagValues[2],
-                        style: TextStyle(color: Color(0xff022136)),
+                        style: const TextStyle(color: Color(0xff022136)),
                       ),
                     ],
                   ),
@@ -101,18 +101,18 @@ class ProfileCard extends StatelessWidget {
                       SvgPicture.asset(purpleFlag),
                       Text(
                         flagValues[3],
-                        style: TextStyle(color: Color(0xff022136)),
+                        style: const TextStyle(color: Color(0xff022136)),
                       ),
                     ],
                   ),
                 ],
               ),
             ),
-            Divider(
-              color: Color(0xff778BCC29),
+            const Divider(
+              color: Color(0xff8BCC29),
             ),
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 8.0),
+            const Padding(
+              padding: EdgeInsets.symmetric(vertical: 8.0),
               child: Center(
                 child: Text(
                   'Complete your profile to get a bonus',

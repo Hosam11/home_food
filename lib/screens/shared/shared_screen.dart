@@ -57,11 +57,11 @@ class SharedScreen extends StatelessWidget {
                   const SizedBox(height: 16),
                   Container(
                     decoration: BoxDecoration(
-                        color: Color(0xff4529B14E),
+                        color: const Color(0xff29B14E),
                         borderRadius: BorderRadius.circular(5),
-                        border: Border.all(style: BorderStyle.solid)),
+                        border: Border.all()),
                     child: Column(
-                      children: [
+                      children: const [
                         Text(
                           'Your invitation code',
                           style: whiteTextStyle,

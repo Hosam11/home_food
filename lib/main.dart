@@ -1,9 +1,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:home_food/routes.dart';
-import 'package:home_food/screens/billetera/billetera_screen.dart';
 import 'package:home_food/screens/home/home_screen.dart';
-import 'package:home_food/screens/shared/shared_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +20,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       onGenerateRoute: generateRoutes,
-      home: const SharedScreen(),
+      home: const HomeScreen(),
       scrollBehavior: MyCustomScrollBehavior(),
     );
   }

@@ -13,9 +13,9 @@ Route<dynamic>? generateRoutes(RouteSettings settings) {
     case homeScreen:
       return createPageBuilder(const HomeScreen());
     case secondScreen:
-      return createPageBuilder(BilleteraScreen());
+      return createPageBuilder(const BilleteraScreen());
     case sharedScreen:
-      return createPageBuilder(SharedScreen());
+      return createPageBuilder(const SharedScreen());
     default:
       return null;
   }

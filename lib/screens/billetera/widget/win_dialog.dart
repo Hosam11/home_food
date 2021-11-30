@@ -20,11 +20,11 @@ class WinDialog extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            SizedBox(height: 50),
-            ProfileCard(),
-            SizedBox(height: 16),
-            WalletCard(),
-            SizedBox(height: 8),
+            const SizedBox(height: 50),
+            const ProfileCard(),
+            const SizedBox(height: 16),
+            const WalletCard(),
+            const SizedBox(height: 8),
             Text(
               'Redeem your points',
               style: Theme.of(context)
@@ -32,7 +32,7 @@ class WinDialog extends StatelessWidget {
                   .headline5
                   ?.copyWith(fontWeight: FontWeight.bold),
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             Row(
               children: [
                 Expanded(
@@ -49,7 +49,7 @@ class WinDialog extends StatelessWidget {
                 ),
               ],
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             Image.asset(foodBanner)
           ],
         ),
