@@ -1,37 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:home_food/routes.dart';
 
-import 'package:home_food/screens/billetera/widget/win_dialog.dart';
-import 'package:home_food/screens/billetera/widget/win_header.dart';
 import 'home_widgets/widgets.dart';
-
-final dialog = SingleChildScrollView(
-  child: Column(
-    children: [
-      const SizedBox(height: 100),
-      Stack(
-        clipBehavior: Clip.none,
-        children: const [
-          Padding(
-            padding: EdgeInsets.symmetric(horizontal: 12.0, vertical: 8.0),
-            child: WinDialog(),
-          ),
-          // Positioned(top: -50, child: WinHeader()),
-          Positioned.fill(
-            top: -50,
-            child: Padding(
-              padding: EdgeInsets.symmetric(horizontal: 30.0),
-              child: WinHeader(),
-            ),
-          ),
-        ],
-      ),
-
-      // WinHeader(),
-    ],
-  ),
-);
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -43,6 +15,11 @@ class HomeScreen extends StatelessWidget {
         statusBarColor: Color(0xFF0E294E),
       ),
       child: Scaffold(
+        floatingActionButton: FloatingActionButton(
+          backgroundColor: const Color(0xFF0E294E),
+          onPressed: () => Navigator.pushNamed(context, billeteraScreen),
+          child: const Icon(Icons.arrow_forward),
+        ),
         body: SafeArea(
           child: SingleChildScrollView(
             child: Column(

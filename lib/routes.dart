@@ -5,14 +5,14 @@ import 'package:home_food/screens/shared/shared_screen.dart';
 import 'screens/home/home_screen.dart';
 
 const homeScreen = 'homeScreen';
-const secondScreen = 'secondScreen';
+const billeteraScreen = 'billeteraScreen';
 const sharedScreen = 'sharedScreen';
 
 Route<dynamic>? generateRoutes(RouteSettings settings) {
   switch (settings.name) {
     case homeScreen:
       return createPageBuilder(const HomeScreen());
-    case secondScreen:
+    case billeteraScreen:
       return createPageBuilder(const BilleteraScreen());
     case sharedScreen:
       return createPageBuilder(const SharedScreen());

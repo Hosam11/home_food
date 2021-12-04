@@ -1,7 +1,6 @@
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:home_food/clipper/custom_clip_path.dart';
 import 'package:home_food/constants/svgs.dart';
-import 'package:home_food/routes.dart';
 
 import 'package:flutter/material.dart';
 import 'package:home_food/screens/home/home_widgets/widgets.dart';
@@ -79,15 +78,10 @@ class FirstPart extends StatelessWidget {
                         ),
                         Container(
                           margin: const EdgeInsets.only(top: 90, left: 20),
-                          child: InkWell(
-                            onTap: () {
-                              Navigator.pushNamed(context, secondScreen);
-                            },
-                            child: SvgPicture.asset(
-                              greenLeafSvg,
-                              width: 100,
-                              fit: BoxFit.cover,
-                            ),
+                          child: SvgPicture.asset(
+                            greenLeafSvg,
+                            width: 100,
+                            fit: BoxFit.cover,
                           ),
                         ),
                       ],

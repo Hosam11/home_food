@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -9,6 +11,7 @@ class WinHeader extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    debugPrint('WinHeader.build CAL = ${-pi / 10.0}');
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
       child: Stack(
@@ -31,10 +34,13 @@ class WinHeader extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     crossAxisAlignment: CrossAxisAlignment.end,
                     children: [
-                      SvgPicture.asset(
-                        coinSvg,
-                        height: 25,
-                        width: 25,
+                      Transform(
+                        transform: Matrix4.skewY(0.2)..rotateZ(-.4),
+                        child: SvgPicture.asset(
+                          coinSvg,
+                          height: 25,
+                          width: 25,
+                        ),
                       ),
                       const SizedBox(width: 16),
                       Column(
@@ -63,10 +69,13 @@ class WinHeader extends StatelessWidget {
                     // mainAxisSize: MainAxisSize.max,
                     crossAxisAlignment: CrossAxisAlignment.end,
                     children: [
-                      SvgPicture.asset(
-                        coinSvg,
-                        height: 25,
-                        width: 25,
+                      Transform(
+                        transform: Matrix4.skewX(0.3)..rotateZ(-.25),
+                        child: SvgPicture.asset(
+                          coinSvg,
+                          height: 30,
+                          width: 30,
+                        ),
                       ),
                       // Spacer(),
                     ],

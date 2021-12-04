@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:home_food/constants/images.dart';
-import 'package:home_food/screens/billetera/widget/product_point_card.dart';
-import 'package:home_food/screens/billetera/widget/profile_card.dart';
-import 'package:home_food/screens/billetera/widget/wallet_card.dart';
+import 'package:home_food/screens/billetera/widget/z_billertera_widgets.dart';
 
 class WinDialog extends StatelessWidget {
   const WinDialog({Key? key}) : super(key: key);
