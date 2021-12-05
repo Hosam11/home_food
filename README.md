@@ -1,16 +1,13 @@
-# home_food
+# HomeFood
 
-A new Flutter project.
 
-## Getting Started
+Complex design with flutter
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| ![home_screen](https://user-images.githubusercontent.com/18370055/144751617-dca3736b-331d-495d-bd6f-3d87d4a3ad3a.jpg) | ![second screen](https://user-images.githubusercontent.com/18370055/144751627-2b2f7199-e241-44f9-9414-b0c24bdfdb4c.jpg) |  ![dialog](https://user-images.githubusercontent.com/18370055/144751613-fa4212eb-cb9b-4532-a396-3e28c0556c06.jpg)  | 
+| :---: |:---:| :---:| 
+
+
+
