@@ -15,30 +15,32 @@ class BilleteraScreen extends StatelessWidget {
         child: const Icon(Icons.arrow_forward),
       ),
       body: SingleChildScrollView(
-        child: Column(
-          children: [
-            const SizedBox(height: 100),
-            Stack(
-              clipBehavior: Clip.none,
-              children: const [
-                Padding(
-                  padding:
-                      EdgeInsets.symmetric(horizontal: 12.0, vertical: 8.0),
-                  child: WinDialog(),
-                ),
-                // Positioned(top: -50, child: WinHeader()),
-                Positioned.fill(
-                  top: -50,
-                  child: Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 30.0),
-                    child: WinHeader(),
+        child: SafeArea(
+          child: Column(
+            children: [
+              const SizedBox(height: 50),
+              Stack(
+                clipBehavior: Clip.none,
+                children: const [
+                  Padding(
+                    padding:
+                        EdgeInsets.symmetric(horizontal: 12.0, vertical: 8.0),
+                    child: WinDialog(),
                   ),
-                ),
-              ],
-            ),
+                  // Positioned(top: -50, child: WinHeader()),
+                  Positioned.fill(
+                    top: -50,
+                    child: Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 30.0),
+                      child: WinHeader(),
+                    ),
+                  ),
+                ],
+              ),
 
-            // WinHeader(),
-          ],
+              // WinHeader(),
+            ],
+          ),
         ),
       ),
     );
